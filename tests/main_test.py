@@ -235,12 +235,12 @@ def scrape_mirkvartir_moscow(max_pages: int = 10, min_items: int = 300, with_det
 
 
 def main():
-    df = scrape_mirkvartir_moscow(max_pages=1, min_items=500, with_details=True)
+    df = scrape_mirkvartir_moscow(max_pages=100, min_items=700, with_details=True)
     print(f"Итого собрано объявлений: {len(df)}")
-    output_file = "mirkvartir_moscow_flats_17.csv"
+    output_file = "../data/raw/mirkvartir_moscow_flats_test.csv"
     df.to_csv(output_file, index=False, encoding="utf-8-sig")
     print(f"Данные сохранены в файл: {output_file}")
-
+#Скачиваю страницу списка p=30...
 
 if __name__ == "__main__":
     main()
