@@ -1,0 +1,5 @@
+outs:
+- md5: 73e9d85639729b221d433809baabad8b
+  size: 11075777
+  hash: md5
+  path: mirkvartir_moscow_flats_10000.parquet
