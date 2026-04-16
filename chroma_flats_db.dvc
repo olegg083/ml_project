@@ -1,0 +1,6 @@
+outs:
+- md5: ad246e9c2fef374b88ba0be9b5350ad8.dir
+  size: 192454004
+  nfiles: 6
+  hash: md5
+  path: chroma_flats_db
