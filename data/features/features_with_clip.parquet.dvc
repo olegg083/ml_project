@@ -1,0 +1,5 @@
+outs:
+- md5: d616f5732febfea078cc96fa3a0c1829
+  size: 24915446
+  hash: md5
+  path: features_with_clip.parquet
