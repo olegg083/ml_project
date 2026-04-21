@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error, mean_absolute_percentage_error, median_absolute_error, r2_score
 from catboost import CatBoostRegressor, Pool
 
-DATA_PATH = "../data/features/features_10000_test3.parquet"
+DATA_PATH = "../data/features/features_10000_final.parquet"
 RANDOM_SEED = 42
 TEST_SIZE = 0.2
 
@@ -97,6 +97,6 @@ if __name__ == "__main__":
 
 '''МЕТРИКИ КАЧЕСТВА (на отложенной выборке):
    MAPE:  14.85%
-   MedAE: 2.364 млн руб
+   MedAE: 2.364 млн ру'
    R2:    0.8596
    MAE:   8.348 млн руб'''

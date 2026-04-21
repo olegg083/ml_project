@@ -1,0 +1,5 @@
+outs:
+- md5: d7fbb3c487fd473bf7c3d4a19fb24fea
+  size: 10411134
+  hash: md5
+  path: house_model_final.cbm

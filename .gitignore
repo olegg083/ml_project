@@ -10,3 +10,4 @@ wheels/
 .venv
 .env
 /chroma_flats_db
+/tests

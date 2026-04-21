@@ -68,7 +68,7 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
 if __name__ == "__main__":
     # Загружаем
     input_path = "../../../data/processed/mirkvartir_moscow_flats_10000.parquet"
-    output_path = "../../../data/features/features_10000_test3.parquet"
+    output_path = "../../../data/features/features_10000_final.parquet"
 
     raw_df = pd.read_parquet(input_path)
     features_df = build_features(raw_df)

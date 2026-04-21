@@ -1,4 +1,8 @@
 [core]
-    remote = mylocal
-['remote "mylocal"']
-    url = ../../my_dvc_storage
+    remote = mys3
+['remote "mys3"']
+    url = s3://mirkvartir-data/dvc_storage
+    endpointurl = http://localhost:9000
+    access_key_id = minioadmin
+    secret_access_key = minioadmin
+    ssl_verify = false
